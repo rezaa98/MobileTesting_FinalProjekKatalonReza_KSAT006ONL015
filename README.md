@@ -5,7 +5,7 @@
 
 ## Tools & Utility
 
-- APK : Bangking Apps
+- APK : Banking Apps
 - Tools : <b>Katalon Studio</b>
 - Method : Manual Scripting & Spy Object Mobile
 
