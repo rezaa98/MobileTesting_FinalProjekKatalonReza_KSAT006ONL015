@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/TC001_Login'), [('username') : 'reza.maulana', ('password') : 'admin123'], FailureHandling.STOP_ON_FAILURE)
-
 Mobile.tap(findTestObject('Menu Page/btn_Left menu'), GlobalVariable.timeOut)
 
 Mobile.tap(findTestObject('Menu Page/Menu Left Side Bar/Body/android.widget.CheckedTextView - Make a Payment'), GlobalVariable.timeOut)

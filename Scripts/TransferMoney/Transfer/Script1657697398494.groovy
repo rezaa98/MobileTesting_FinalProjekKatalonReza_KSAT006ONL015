@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.comment('call test case')
 
-WebUI.callTestCase(findTestCase('Login/TC001_Login'), [('username') : 'reza.maulana', ('password') : 'admin123'], FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication(GlobalVariable.appId, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Menu Page/btn_Left menu'), GlobalVariable.timeOut)
 
