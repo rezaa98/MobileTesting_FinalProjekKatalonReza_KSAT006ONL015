@@ -5,42 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f35550b3-03ce-4ef8-a9fc-10f5c96fc2bc</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>72123f6e-9ace-48f1-bc9e-74e14111c745</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>36a57a4f-8694-4753-a0fb-e9e9a8b5eccf</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>95a4b0df-fe2b-4c50-9515-81972ef2a0b3</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>58094d9a-8403-4ebe-83ba-2802500afe35</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>59c4b9b1-cd4f-4e38-ab9e-c6ec08c3e118</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>ec39ffb8-8084-414e-ab46-7ba8ea755fd8</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>'Maulana'</defaultValue>
       <description></description>

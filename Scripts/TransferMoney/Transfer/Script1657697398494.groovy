@@ -17,31 +17,36 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.comment('call test case')
+
 WebUI.callTestCase(findTestCase('Login/TC001_Login'), [('username') : 'reza.maulana', ('password') : 'admin123'], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Menu Page/btn_Left menu'), GlobalVariable.timeOut)
 
-Mobile.tap(findTestObject('Menu Page/Menu Left Side Bar/Body/android.widget.CheckedTextView - Accounts'), GlobalVariable.timeOut)
+Mobile.tap(findTestObject('Menu Page/Menu Left Side Bar/Body/android.widget.CheckedTextView - Make a Transfer'), GlobalVariable.timeOut)
 
-Mobile.tap(findTestObject('Make Account Page/Bottom/btn_Add account'), GlobalVariable.timeOut)
-
-Mobile.comment('Verifikasi Data')
-
-Mobile.verifyElementVisible(findTestObject('Make Account Page/Add an Account/text_Add an Account'), GlobalVariable.timeOut)
-
-Mobile.verifyElementVisible(findTestObject('Make Account Page/Add an Account/android.widget.EditText - Account Name'), GlobalVariable.timeOut)
-
-Mobile.verifyElementVisible(findTestObject('Make Account Page/Add an Account/android.widget.Button - ADD'), GlobalVariable.timeOut)
-
-Mobile.tap(findTestObject('Make Account Page/Add an Account/android.widget.EditText - Account Name'), 0)
-
-Mobile.setText(findTestObject('Make Account Page/Add an Account/android.widget.EditText - Account Name'), account_name, 
+Mobile.verifyElementVisible(findTestObject('Transfer Page/Body Page/Sending account/android.widget.TextView - Select Sending Account'), 
     0)
 
-Mobile.tap(findTestObject('Make Account Page/Add an Account/android.widget.EditText - Initial Balance (Optional)'), 0)
+Mobile.verifyElementVisible(findTestObject('Transfer Page/Body Page/Sending account/spinner_Sending account'), 0)
 
-Mobile.setText(findTestObject('Make Account Page/Add an Account/android.widget.EditText - Initial Balance (Optional)'), 
-    balance, 0)
+Mobile.verifyElementVisible(findTestObject('Transfer Page/Body Page/btn_Confirm Transfer'), 0)
 
-Mobile.tap(findTestObject('Make Account Page/Add an Account/android.widget.Button - ADD'), 0)
+Mobile.tap(findTestObject('Transfer Page/Body Page/Sending account/android.widget.EditText - Transfer Amount'), 0)
+
+Mobile.setText(findTestObject('Transfer Page/Body Page/Sending account/android.widget.EditText - Transfer Amount'), ValuetoTransfer, 
+    0)
+
+//======================
+// Before transfer money
+//======================
+String receiver = Mobile.getText(findTestObject('Transfer Page/Body Page/Receiving account Page/text_Spinner receiving acccount'), 
+    0)
+
+String sender = Mobile.getText(findTestObject('Transfer Page/Body Page/Sending account/spinner_Sending account'), 0)
+
+//======================
+// After transfer money
+//======================
+Mobile.tap(findTestObject('Transfer Page/Body Page/btn_Confirm Transfer'), 0, FailureHandling.STOP_ON_FAILURE)
 

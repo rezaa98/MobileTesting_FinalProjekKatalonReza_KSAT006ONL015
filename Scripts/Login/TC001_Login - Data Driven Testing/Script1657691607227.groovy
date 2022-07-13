@@ -17,6 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('C:\\Users\\rezay\\Documents\\project Amazon\\react-portfolio-master\\MobileTesting_FinalProjekKatalonReza_KSAT006ONL015\\APK\\app-debug.apk', 
+    false)
+
 Mobile.startExistingApplication(GlobalVariable.appId, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementVisible(findTestObject('Landing Screen Page/Body Landing Page/username'), GlobalVariable.timeOut)
@@ -47,5 +50,9 @@ Mobile.tap(findTestObject('Landing Screen Page/Body Landing Page/btn_LOGIN'), Gl
 
 Mobile.delay(GlobalVariable.timeOut, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementNotExist(findTestObject('Dashboard Page/text_Good morning'), 0)
+check = Mobile.verifyElementVisible(findTestObject('Dashboard Page/text_Good morning'), 0)
+
+if (check == true) {
+} else {
+}
 

@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>33767f8a-3e27-4e3b-8f4f-f890b3b9d2fc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05cec348-94d3-4f61-b348-587f343b3d75</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d5ff0930-fa5a-49e4-b42e-edf456d2f360</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'BNI'</defaultValue>
+      <description></description>
+      <id>05cec348-94d3-4f61-b348-587f343b3d75</id>
+      <masked>false</masked>
+      <name>account_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'123000\r\n'</defaultValue>
+      <description></description>
+      <id>d5ff0930-fa5a-49e4-b42e-edf456d2f360</id>
+      <masked>false</masked>
+      <name>balance</name>
+   </variable>
 </TestCaseEntity>

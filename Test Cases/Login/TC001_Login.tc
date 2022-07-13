@@ -5,18 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d0a71183-c6e4-462d-80c0-a64cd5733289</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>dbbf3dfe-4363-4ec5-9a44-c05537afa014</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>6d9a8d88-c39e-405f-93f4-9c0ba569c497</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>'reza.maulana'</defaultValue>
       <description></description>

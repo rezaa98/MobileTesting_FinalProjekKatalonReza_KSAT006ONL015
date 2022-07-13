@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_Login - Data Driven Testing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc425829-fc1a-4aad-a5e9-c5ee081d7c0a</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>6955eae2-0909-487f-a60a-e36aa2a6523b</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Login</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>6955eae2-0909-487f-a60a-e36aa2a6523b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>d868ced3-6efe-43c0-b63e-a670127aea40</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>6955eae2-0909-487f-a60a-e36aa2a6523b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>ac9f8ef8-f771-4692-a31d-577b0703aab1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'reza.maulana'</defaultValue>
+      <description></description>
+      <id>d868ced3-6efe-43c0-b63e-a670127aea40</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin123'</defaultValue>
+      <description></description>
+      <id>ac9f8ef8-f771-4692-a31d-577b0703aab1</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

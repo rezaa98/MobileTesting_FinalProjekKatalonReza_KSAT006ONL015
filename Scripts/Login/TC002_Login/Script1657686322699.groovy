@@ -19,6 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.appId, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.startApplication('C:\\Users\\rezay\\Documents\\project Amazon\\react-portfolio-master\\MobileTesting_FinalProjekKatalonReza_KSAT006ONL015\\APK\\app-debug.apk', 
+    false)
+
 Mobile.verifyElementVisible(findTestObject('Landing Screen Page/Body Landing Page/username'), GlobalVariable.timeOut)
 
 Mobile.verifyElementVisible(findTestObject('Landing Screen Page/Body Landing Page/password'), 1)
@@ -45,7 +48,5 @@ Mobile.waitForElementPresent(findTestObject('Landing Screen Page/Body Landing Pa
 
 Mobile.tap(findTestObject('Landing Screen Page/Body Landing Page/btn_LOGIN'), GlobalVariable.timeOut)
 
-Mobile.delay(GlobalVariable.timeOut, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('Dashboard Page/text_Good morning'), 0)
+Mobile.verifyElementNotExist(findTestObject('Dashboard Page/text_Good morning'), 0)
 
