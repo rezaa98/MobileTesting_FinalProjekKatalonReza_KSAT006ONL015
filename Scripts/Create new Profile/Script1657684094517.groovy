@@ -17,3 +17,87 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.comment('Start App')
+
+Mobile.startExistingApplication(GlobalVariable.appId, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.waitForElementPresent(findTestObject('Landing Screen Page/Body Landing Page/btn_CREATE A PROFILE'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Landing Screen Page/Body Landing Page/btn_CREATE A PROFILE'), GlobalVariable.timeOut)
+
+Mobile.tap(findTestObject('Landing Screen Page/Body Landing Page/btn_CREATE A PROFILE'), 0)
+
+Mobile.comment('Verif that object is existing')
+
+Mobile.waitForElementPresent(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - First Name'), 
+    0)
+
+Mobile.verifyElementVisible(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - First Name'), 
+    0)
+
+Mobile.verifyElementVisible(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Last Name'), 
+    0)
+
+Mobile.verifyElementVisible(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Country'), 
+    0)
+
+Mobile.verifyElementVisible(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Username'), 
+    0)
+
+Mobile.verifyElementVisible(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Password'), 
+    0)
+
+Mobile.verifyElementVisible(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Confirm Password'), 
+    0)
+
+Mobile.verifyElementVisible(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.TextView - Create Profile'), 
+    0)
+
+Mobile.comment('set firstname')
+
+Mobile.tap(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - First Name'), 0)
+
+Mobile.setText(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - First Name'), firstName, 
+    0)
+
+Mobile.comment('set lastname')
+
+Mobile.tap(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Last Name'), 0)
+
+Mobile.setText(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Last Name'), LastNama, 
+    0)
+
+Mobile.comment('Set Country')
+
+Mobile.tap(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Country'), 0)
+
+Mobile.setText(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Country'), Country, 
+    0)
+
+Mobile.comment('set Username')
+
+Mobile.tap(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Username'), 0)
+
+Mobile.setText(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Username'), username, 
+    0)
+
+Mobile.comment('setPassword')
+
+Mobile.tap(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Password'), 0)
+
+Mobile.setEncryptedText(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Password'), 
+    password, 0)
+
+WebUI.comment('setConfirmPass')
+
+Mobile.tap(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Confirm Password'), 0)
+
+Mobile.setEncryptedText(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Confirm Password'), 
+    confirmpassword, 0)
+
+Mobile.delay(5)
+
+Mobile.tap(findTestObject('Landing Screen/Create profile/Body/btn_Create Profile'), 0)
+
+driver.terminateApp(GlobalVariable.bundleID)
+

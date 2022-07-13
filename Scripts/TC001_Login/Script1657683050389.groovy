@@ -45,3 +45,7 @@ Mobile.waitForElementPresent(findTestObject('Landing Screen Page/Body Landing Pa
 
 Mobile.tap(findTestObject('Landing Screen Page/Body Landing Page/btn_LOGIN'), GlobalVariable.timeOut)
 
+Mobile.delay(GlobalVariable.timeOut, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementVisible(findTestObject('Dashboard Page/text_Good morning'), 0)
+
