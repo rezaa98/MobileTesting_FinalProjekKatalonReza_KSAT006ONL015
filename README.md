@@ -26,4 +26,7 @@
 ### \* Katalon
 
 <img src="https://github.com/rezaa98/MobileTesting_FinalProjekKatalonReza_KSAT006ONL015/blob/main/IMG/Reports.jpeg" width="1000">
-<img src="https://github.com/rezaa98/MobileTesting_FinalProjekKatalonReza_KSAT006ONL015/blob/main/IMG/Tampilan%20antarmuka.jpeg" width="1000">
+
+## Tampilan awal applikasi
+
+<img src="https://github.com/rezaa98/MobileTesting_FinalProjekKatalonReza_KSAT006ONL015/blob/main/IMG/Tampilan%20antarmuka.jpeg" width="480">
