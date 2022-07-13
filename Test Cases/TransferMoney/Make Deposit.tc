@@ -12,7 +12,7 @@
       <variableId>cbcf9903-f379-4bac-af14-e58a1f3dc6c9</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'50'</defaultValue>
+      <defaultValue>'50000'</defaultValue>
       <description></description>
       <id>cbcf9903-f379-4bac-af14-e58a1f3dc6c9</id>
       <masked>false</masked>

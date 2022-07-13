@@ -32,20 +32,9 @@ Mobile.tap(findTestObject('Menu Page/Menu Left Side Bar/Body/android.widget.Chec
 Mobile.verifyElementVisible(findTestObject('Deposit/Make a deposit/android.widget.TextView - Select an Account to Deposit to'), 
     0)
 
-//======================
-// After transfer money
-//======================
-Mobile.tap(findTestObject('Deposit/Make a deposit/spinner'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementVisible(findTestObject('Deposit/Make a deposit/android.widget.CheckedTextView - account1 (500.00)'))
-
-Mobile.tap(findTestObject('Deposit/Make a deposit/android.widget.CheckedTextView - account1 (500.00)'), 0, FailureHandling.STOP_ON_FAILURE)
-
 Mobile.setText(findTestObject('Deposit/Make a deposit/android.widget.EditText - Enter Deposit Amount ()'), deposit, 0)
 
 Mobile.tap(findTestObject('Deposit/Make a deposit/android.widget.Button - DEPOSIT'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementVisible(findTestObject('Make Account Page/Body/Have account/android.view.ViewGroup'))
 
 Mobile.closeApplication()
 
