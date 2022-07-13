@@ -23,8 +23,6 @@ Mobile.tap(findTestObject('Menu Page/btn_Left menu'), GlobalVariable.timeOut)
 
 Mobile.tap(findTestObject('Menu Page/Menu Left Side Bar/Body/android.widget.CheckedTextView - Make a Payment'), GlobalVariable.timeOut)
 
-Mobile.tap(findTestObject('Payment Page/Btn/btn_Add new payee'), GlobalVariable.timeOut)
-
 Mobile.waitForElementPresent(findTestObject('Payment Page/Add a Payment Page/android.widget.EditText - Payee Name'), GlobalVariable.timeOut)
 
 Mobile.verifyElementVisible(findTestObject('Payment Page/Add a Payment Page/android.widget.TextView - Add a Payee'), GlobalVariable.timeOut)
@@ -33,11 +31,7 @@ Mobile.verifyElementVisible(findTestObject('Payment Page/Add a Payment Page/andr
 
 Mobile.verifyElementVisible(findTestObject('Payment Page/Add a Payment Page/android.widget.Button - ADD'), GlobalVariable.timeOut)
 
-Mobile.tap(findTestObject('Payment Page/Add a Payment Page/android.widget.EditText - Payee Name'), 0)
+Mobile.tap(findTestObject('Payment Page/Body Page/Select payee/spinner_Payee'), GlobalVariable.timeOut)
 
-Mobile.setText(findTestObject('Payment Page/Add a Payment Page/android.widget.EditText - Payee Name'), Payment_name, 0)
-
-Mobile.tap(findTestObject('Payment Page/Add a Payment Page/android.widget.Button - ADD'), 0)
-
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Payment Page/Body Page/Select payee/android.widget.CheckedTextView - john (P1)'), GlobalVariable.timeOut)
 

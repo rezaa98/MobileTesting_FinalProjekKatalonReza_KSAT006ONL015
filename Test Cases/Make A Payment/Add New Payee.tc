@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>aca435cd-3d0b-496e-94fe-49780a61b118</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2fda9ab1-6990-4155-947e-e3a9aa793f15</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Ejakkkk'</defaultValue>
+      <description></description>
+      <id>2fda9ab1-6990-4155-947e-e3a9aa793f15</id>
+      <masked>false</masked>
+      <name>Payment_name</name>
+   </variable>
 </TestCaseEntity>

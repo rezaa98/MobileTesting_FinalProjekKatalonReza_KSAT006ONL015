@@ -5,6 +5,42 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b6fd0414-c1b7-4cae-83a1-5835391d5567</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f763d947-d7a8-47f9-81f1-d30f0a41311d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cbd7927d-082c-40d3-9217-ef95f246bd3b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8b926719-8b90-4672-a33c-6328398c003f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a5dadd51-c4c5-4a2d-8bd8-3a98852d9903</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3079302c-913f-4c03-aa99-0f57d63f0d37</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ebf1563-9b98-470e-8c0e-34c290f82e5a</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Yusuf'</defaultValue>
       <description></description>
