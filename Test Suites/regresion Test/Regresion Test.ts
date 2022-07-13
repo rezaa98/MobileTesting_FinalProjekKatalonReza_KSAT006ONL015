@@ -12,6 +12,16 @@
             <groupName>Mobile</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>Xiaomi M2007J3SY (Android 12)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>ec3572fe</value>
+               </entry>
+            </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -22,6 +32,16 @@
             <groupName>Mobile</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>Xiaomi M2007J3SY (Android 12)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>ec3572fe</value>
+               </entry>
+            </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -32,10 +52,60 @@
             <groupName>Mobile</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>Xiaomi M2007J3SY (Android 12)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>ec3572fe</value>
+               </entry>
+            </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Account</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>Xiaomi M2007J3SY (Android 12)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>ec3572fe</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Transaction</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>Xiaomi M2007J3SY (Android 12)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>ec3572fe</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Payment</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
