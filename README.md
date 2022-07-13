@@ -25,5 +25,5 @@
 
 ### \* Katalon
 
-<img src="https://github.com/rezaa98/APITesting_FinalProjekKatalonReza_KSAT006ONL015/blob/main/IMG/Report.jpeg" width="1000">
-<img src="https://github.com/rezaa98/APITesting_FinalProjekKatalonReza_KSAT006ONL015/blob/main/IMG/TestSuite.jpeg" width="1000">
+<img src="https://github.com/rezaa98/MobileTesting_FinalProjekKatalonReza_KSAT006ONL015/blob/main/IMG/Reports.jpeg" width="1000">
+<img src="https://github.com/rezaa98/MobileTesting_FinalProjekKatalonReza_KSAT006ONL015/blob/main/IMG/Tampilan%20antarmuka.jpeg" width="1000">
