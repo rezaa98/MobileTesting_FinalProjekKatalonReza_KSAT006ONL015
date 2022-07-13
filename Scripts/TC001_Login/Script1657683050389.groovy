@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.appId, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Landing Screen Page/Body Landing Page/username'), 1)
+Mobile.verifyElementVisible(findTestObject('Landing Screen Page/Body Landing Page/username'), GlobalVariable.timeOut)
 
 Mobile.verifyElementVisible(findTestObject('Landing Screen Page/Body Landing Page/password'), 1)
 
