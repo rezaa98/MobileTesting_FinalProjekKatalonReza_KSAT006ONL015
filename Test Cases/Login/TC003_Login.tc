@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC002_Login</name>
+   <name>TC003_Login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>98fb514d-1e09-43db-9cee-01db172d92ea</testCaseGuid>
+   <testCaseGuid>c011dcdb-40c0-4167-ac63-a458557dedea</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b2fcf157-e9a7-4c4a-90a5-54ee807975e3</variableId>
+      <variableId>91bf93e3-2870-4a0b-aed3-513aecd36832</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e301a98e-55a9-465d-8ce0-b539bbae089a</variableId>
+      <variableId>803908dc-fda9-4862-ac54-f577469093d9</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'reza.maulana1'</defaultValue>
+      <defaultValue>'reza.maulana'</defaultValue>
       <description></description>
-      <id>b2fcf157-e9a7-4c4a-90a5-54ee807975e3</id>
+      <id>91bf93e3-2870-4a0b-aed3-513aecd36832</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>'admin123'</defaultValue>
+      <defaultValue>'admin1234'</defaultValue>
       <description></description>
-      <id>e301a98e-55a9-465d-8ce0-b539bbae089a</id>
+      <id>803908dc-fda9-4862-ac54-f577469093d9</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
