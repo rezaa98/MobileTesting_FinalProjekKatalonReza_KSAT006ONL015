@@ -25,7 +25,11 @@ Mobile.waitForElementPresent(findTestObject('Landing Screen Page/Body Landing Pa
 
 Mobile.verifyElementVisible(findTestObject('Landing Screen Page/Body Landing Page/btn_CREATE A PROFILE'), GlobalVariable.timeOut)
 
-Mobile.tap(findTestObject('Landing Screen Page/Body Landing Page/btn_CREATE A PROFILE'), 0)
+if (respon1 == true) {
+    Mobile.tap(findTestObject('Landing Screen Page/Body Landing Page/btn_CREATE A PROFILE'), 0)
+} else {
+    Mobile.tap(findTestObject('Landing Screen Page/Create Profile Page/Top/btn_back'), 0)
+}
 
 Mobile.comment('Verif that object is existing')
 

@@ -12,6 +12,13 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>60ee1555-fccf-414b-a975-a92e62ea5a1a</testSuiteGuid>
    <testCaseLink>
+      <guid>14aa992b-d882-434e-96c4-85eaccf512ac</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Start APP</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>5a73d369-4f5c-4638-ad58-3188b83ee19c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
