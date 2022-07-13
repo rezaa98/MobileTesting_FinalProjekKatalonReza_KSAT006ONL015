@@ -85,14 +85,14 @@ Mobile.comment('setPassword')
 
 Mobile.tap(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Password'), 0)
 
-Mobile.setEncryptedText(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Password'), 
-    password, 0)
+Mobile.setText(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Password'), password, 
+    0)
 
 WebUI.comment('setConfirmPass')
 
 Mobile.tap(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Confirm Password'), 0)
 
-Mobile.setEncryptedText(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Confirm Password'), 
+Mobile.setText(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Confirm Password'), 
     confirmpassword, 0)
 
 Mobile.delay(5)
