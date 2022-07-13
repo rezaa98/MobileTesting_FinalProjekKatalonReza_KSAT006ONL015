@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Make Payment more than deposit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ddc20457-fca0-473d-a9fc-351630c36a56</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>92958a87-6816-4f02-bb31-54c488ca648a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'9000000'</defaultValue>
+      <description></description>
+      <id>92958a87-6816-4f02-bb31-54c488ca648a</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+</TestCaseEntity>
