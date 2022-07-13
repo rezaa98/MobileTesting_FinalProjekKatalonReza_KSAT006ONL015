@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ee03fe40-12f1-4bb4-837c-9ba5caa0afef</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cbcf9903-f379-4bac-af14-e58a1f3dc6c9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'50'</defaultValue>
+      <description></description>
+      <id>cbcf9903-f379-4bac-af14-e58a1f3dc6c9</id>
+      <masked>false</masked>
+      <name>deposit</name>
+   </variable>
 </TestCaseEntity>
