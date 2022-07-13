@@ -19,16 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.comment('Start App')
 
+Mobile.startApplication('C:\\Users\\rezay\\Documents\\project Amazon\\react-portfolio-master\\MobileTesting_FinalProjekKatalonReza_KSAT006ONL015\\APK\\app-debug.apk', 
+    false)
+
 Mobile.startExistingApplication(GlobalVariable.appId, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.waitForElementPresent(findTestObject('Landing Screen Page/Body Landing Page/btn_CREATE A PROFILE'), 0)
 
-respon1 = Mobile.verifyElementVisible(findTestObject('Landing Screen Page/Body Landing Page/btn_CREATE A PROFILE'), GlobalVariable.timeOut)
+respon1 = Mobile.verifyElementVisible(findTestObject('Landing Screen Page/Body Landing Page/btn_CREATE A PROFILE'), GlobalVariable.timeOut, 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 if (respon1 == true) {
     Mobile.tap(findTestObject('Landing Screen Page/Body Landing Page/btn_CREATE A PROFILE'), 0)
 } else {
     Mobile.tap(findTestObject('Landing Screen Page/Create Profile Page/Top/btn_back'), 0)
+
+    Mobile.tap(findTestObject('Landing Screen Page/Body Landing Page/btn_CREATE A PROFILE'), 0)
 }
 
 Mobile.comment('Verif that object is existing')

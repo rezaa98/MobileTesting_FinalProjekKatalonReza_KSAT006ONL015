@@ -19,6 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.comment('Start App')
 
+Mobile.startApplication('C:\\Users\\rezay\\Documents\\project Amazon\\react-portfolio-master\\MobileTesting_FinalProjekKatalonReza_KSAT006ONL015\\APK\\app-debug.apk', 
+    false)
+
 Mobile.startExistingApplication(GlobalVariable.appId, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.waitForElementPresent(findTestObject('Landing Screen Page/Body Landing Page/btn_CREATE A PROFILE'), 0)
