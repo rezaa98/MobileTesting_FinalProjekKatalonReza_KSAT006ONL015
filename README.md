@@ -27,6 +27,6 @@
 
 <img src="https://github.com/rezaa98/MobileTesting_FinalProjekKatalonReza_KSAT006ONL015/blob/main/IMG/Reports.jpeg" width="1000">
 
-## Tampilan awal applikasi
+## Tampilan awal aplikasi
 
-<img src="https://github.com/rezaa98/MobileTesting_FinalProjekKatalonReza_KSAT006ONL015/blob/main/IMG/Tampilan%20antarmuka.jpeg" width="480">
+<img src="https://github.com/rezaa98/MobileTesting_FinalProjekKatalonReza_KSAT006ONL015/blob/main/IMG/Tampilan%20antarmuka.jpeg" width="300">
