@@ -25,13 +25,23 @@ Mobile.tap(findTestObject('Menu Page/Menu Left Side Bar/Body/android.widget.Chec
 
 Mobile.waitForElementPresent(findTestObject('Payment Page/Add a Payment Page/android.widget.EditText - Payee Name'), GlobalVariable.timeOut)
 
-Mobile.verifyElementVisible(findTestObject('Payment Page/Add a Payment Page/android.widget.TextView - Add a Payee'), GlobalVariable.timeOut)
+Mobile.verifyElementVisible(findTestObject('Payment Page/Body Page/Select payee/android.widget.Button - Make Payment'), 
+    GlobalVariable.timeOut)
 
-Mobile.verifyElementVisible(findTestObject('Payment Page/Add a Payment Page/android.widget.EditText - Payee Name'), GlobalVariable.timeOut)
+Mobile.verifyElementVisible(findTestObject('Payment Page/Body Page/Select payee/spinner_Payee'), GlobalVariable.timeOut)
 
-Mobile.verifyElementVisible(findTestObject('Payment Page/Add a Payment Page/android.widget.Button - ADD'), GlobalVariable.timeOut)
+Mobile.verifyElementVisible(findTestObject('Payment Page/Body Page/Select payee/android.widget.TextView - Select a Payee'), 
+    GlobalVariable.timeOut)
 
 Mobile.tap(findTestObject('Payment Page/Body Page/Select payee/spinner_Payee'), GlobalVariable.timeOut)
 
-Mobile.tap(findTestObject('Payment Page/Body Page/Select payee/android.widget.CheckedTextView - john (P1)'), GlobalVariable.timeOut)
+Mobile.tap(findTestObject('Payment Page/Body Page/Select payee/android.widget.CheckedTextView - ejakkkk(P1)'), GlobalVariable.timeOut)
+
+Mobile.tap(findTestObject('Payment Page/Body Page/Select payee/android.widget.EditText - Amount'), GlobalVariable.timeOut)
+
+Mobile.setText(findTestObject('Payment Page/Body Page/Select payee/android.widget.EditText - Amount'), amount, GlobalVariable.timeOut)
+
+String payFrom = Mobile.getText(findTestObject('Payment Page/Body Page/android.widget.TextView - tes1 (12.00)'), 0)
+
+Mobile.tap(findTestObject('Payment Page/Body Page/Select payee/android.widget.Button - Make Payment'), 0)
 
