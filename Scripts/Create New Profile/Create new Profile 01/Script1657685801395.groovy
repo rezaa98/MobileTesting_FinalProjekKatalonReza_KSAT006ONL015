@@ -95,9 +95,7 @@ Mobile.tap(findTestObject('Landing Screen Page/Create Profile Page/Body/android.
 Mobile.setText(findTestObject('Landing Screen Page/Create Profile Page/Body/android.widget.EditText - Confirm Password'), 
     confirmpassword, 0)
 
-Mobile.delay(5)
+Mobile.tap(findTestObject('Landing Screen Page/Create Profile Page/Body/btn_Create Profile'), 0)
 
-Mobile.tap(findTestObject('Landing Screen/Create profile/Body/btn_Create Profile'), 0)
-
-driver.terminateApp(GlobalVariable.bundleID)
+Mobile.closeApplication()
 

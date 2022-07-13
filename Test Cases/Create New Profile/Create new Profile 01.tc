@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Create new Profile</name>
+   <name>Create new Profile 01</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>96445ef9-6b6e-4795-a8c1-d19be50e2452</testCaseGuid>
