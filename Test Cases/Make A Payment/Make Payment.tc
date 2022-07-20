@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Make Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>435603ae-22f6-4436-bc97-5f6f8526710e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c3d25671-7ee1-45e1-879f-1b557bcf50b9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'9000'</defaultValue>
+      <description></description>
+      <id>c3d25671-7ee1-45e1-879f-1b557bcf50b9</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+</TestCaseEntity>
